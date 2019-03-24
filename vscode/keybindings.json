@@ -1,32 +1,49 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-   {
-       "key": "ctrl+`", 
-       "command": "workbench.action.terminal.focus",
-       "when": "!terminalFocus"
-   },
-   {
-       "key": "cmd+e",
-       "command": "workbench.files.action.focusFilesExplorer",
-       "when": "editorTextFocus"
-   },
-   {
-       "key": "cmd+e",
-       "command": "workbench.action.focusActiveEditorGroup",
-       "when": "!editorTextFocus"
-   },
-   {
-       "key": "alt+cmd+right",
-       "command": "workbench.action.focusNextGroup",
-       "when": "editorTextFocus"
-   },
-   {
-       "key": "alt+cmd+left",
-       "command": "workbench.action.focusPreviousGroup",
-       "when": "editorTextFocus"
-   },
-   {
-       "key": "cmd+e",
-       "command": "-actions.findWithSelection"
-   }
+    {
+        "key": "ctrl+`", 
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.focusNextGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-actions.findWithSelection"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k cmd+n",
+        "command": "explorer.newFile",
+    },{
+        "key": "cmd+k cmd+d",
+        "command": "explorer.newFolder"
+    }
 ]
